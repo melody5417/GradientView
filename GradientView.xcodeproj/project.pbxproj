@@ -14,6 +14,7 @@
 		4FD7BC311E9C87BA004A6DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7BC2F1E9C87BA004A6DEC /* Main.storyboard */; };
 		4FD7BC3C1E9C87BA004A6DEC /* GradientViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7BC3B1E9C87BA004A6DEC /* GradientViewTests.m */; };
 		4FD7BC471E9C87BA004A6DEC /* GradientViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7BC461E9C87BA004A6DEC /* GradientViewUITests.m */; };
+		4FD7BC561E9C8959004A6DEC /* CAGradientLayer+YQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7BC551E9C8959004A6DEC /* CAGradientLayer+YQExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		4FD7BC421E9C87BA004A6DEC /* GradientViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD7BC461E9C87BA004A6DEC /* GradientViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientViewUITests.m; sourceTree = "<group>"; };
 		4FD7BC481E9C87BA004A6DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD7BC541E9C8959004A6DEC /* CAGradientLayer+YQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+YQExtension.h"; sourceTree = "<group>"; };
+		4FD7BC551E9C8959004A6DEC /* CAGradientLayer+YQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+YQExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				4FD7BC2F1E9C87BA004A6DEC /* Main.storyboard */,
 				4FD7BC321E9C87BA004A6DEC /* Info.plist */,
 				4FD7BC271E9C87BA004A6DEC /* Supporting Files */,
+				4FD7BC541E9C8959004A6DEC /* CAGradientLayer+YQExtension.h */,
+				4FD7BC551E9C8959004A6DEC /* CAGradientLayer+YQExtension.m */,
 			);
 			path = GradientView;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FD7BC2C1E9C87BA004A6DEC /* ViewController.m in Sources */,
+				4FD7BC561E9C8959004A6DEC /* CAGradientLayer+YQExtension.m in Sources */,
 				4FD7BC291E9C87BA004A6DEC /* main.m in Sources */,
 				4FD7BC261E9C87BA004A6DEC /* AppDelegate.m in Sources */,
 			);

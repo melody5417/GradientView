@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CAGradientLayer+YQExtension.h"
 
 @implementation ViewController
 
@@ -14,6 +15,15 @@
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
+    [self.view setWantsLayer:YES];
+
+    CAGradientLayer *gradientLayer = [CAGradientLayer gradientLayerWithFrame:self.view.bounds
+                                                          startPoint:CGPointMake(0, 0)
+                                                            endPoint:CGPointMake(0, 1)
+                                                              colors:@[[NSColor blueColor], [NSColor yellowColor]]
+                                                           locations:@[@(0.5f), @(1.0f)]];
+    [gradientLayer setAutoresizingMask:kCALayerWidthSizable | kCALayerHeightSizable];
+    [self.view.layer addSublayer:gradientLayer];
 }
 
 
