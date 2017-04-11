@@ -15,6 +15,7 @@
 		4FD7BC3C1E9C87BA004A6DEC /* GradientViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7BC3B1E9C87BA004A6DEC /* GradientViewTests.m */; };
 		4FD7BC471E9C87BA004A6DEC /* GradientViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7BC461E9C87BA004A6DEC /* GradientViewUITests.m */; };
 		4FD7BC561E9C8959004A6DEC /* CAGradientLayer+YQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7BC551E9C8959004A6DEC /* CAGradientLayer+YQExtension.m */; };
+		4FD7BC601E9CB93B004A6DEC /* YQGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7BC5F1E9CB93B004A6DEC /* YQGradientView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		4FD7BC481E9C87BA004A6DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FD7BC541E9C8959004A6DEC /* CAGradientLayer+YQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+YQExtension.h"; sourceTree = "<group>"; };
 		4FD7BC551E9C8959004A6DEC /* CAGradientLayer+YQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+YQExtension.m"; sourceTree = "<group>"; };
+		4FD7BC5E1E9CB93B004A6DEC /* YQGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQGradientView.h; sourceTree = "<group>"; };
+		4FD7BC5F1E9CB93B004A6DEC /* YQGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQGradientView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				4FD7BC271E9C87BA004A6DEC /* Supporting Files */,
 				4FD7BC541E9C8959004A6DEC /* CAGradientLayer+YQExtension.h */,
 				4FD7BC551E9C8959004A6DEC /* CAGradientLayer+YQExtension.m */,
+				4FD7BC5E1E9CB93B004A6DEC /* YQGradientView.h */,
+				4FD7BC5F1E9CB93B004A6DEC /* YQGradientView.m */,
 			);
 			path = GradientView;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 				4FD7BC2C1E9C87BA004A6DEC /* ViewController.m in Sources */,
 				4FD7BC561E9C8959004A6DEC /* CAGradientLayer+YQExtension.m in Sources */,
 				4FD7BC291E9C87BA004A6DEC /* main.m in Sources */,
+				4FD7BC601E9CB93B004A6DEC /* YQGradientView.m in Sources */,
 				4FD7BC261E9C87BA004A6DEC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +512,7 @@
 				4FD7BC4D1E9C87BA004A6DEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FD7BC4E1E9C87BA004A6DEC /* Build configuration list for PBXNativeTarget "GradientViewTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +521,7 @@
 				4FD7BC501E9C87BA004A6DEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FD7BC511E9C87BA004A6DEC /* Build configuration list for PBXNativeTarget "GradientViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +530,7 @@
 				4FD7BC531E9C87BA004A6DEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
